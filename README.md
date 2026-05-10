@@ -1,20 +1,21 @@
-#Nickolas Werhli Barbosa
+# Nickolas Werhli Barbosa
 # Agenda-pBuffer
 
 Faça uma agenda com o seguinte menu:
 
 1 - Adicionar Pessoa (Nome, Idade, email)
+
 2 - Remover Pessoa
+
 3 - Buscar Pessoa
+
 4 - Listar todos
+
 5 - Sair
  
 O desafio é não poder criar variáveis e sim um buffer de memória (void *pBuffer). Nisso vocês terão que fazer o trabalho que o Sistema Operacional faz para vocês ao organizar a memória.
  
 Regras:
-1) Nenhuma variável pode ser declarada em todo o programa, somente ponteiros. Todos os dados do programa devem ser guardados dentro do pBuffer.
-  1.1) Nem mesmo como parâmetro de função. Só ponteiros que apontam para dentro do pBuffer.
-   Exemplo: int *ptr = (int *)pBuffer
-   Exemplo do que não pode: int c; char a; int v[10];  void Funcao(int parametro)
-2) Todas as strings que ficarem dentro do pBuffer deve ter somente o tamanho necessário, somente um buffer para receber o que o usuário digita no scanf pode ter um tamanho fixo.
-3) Não pode usar struct em todo o programa.
+1) Nenhuma variável pode ser declarada em todo o programa, somente ponteiros. Todos os dados do programa devem ser guardados dentro do pBuffer. (Nem mesmo como parâmetro de função. Só ponteiros que apontam para dentro do pBuffer.)
+3) Todas as strings que ficarem dentro do pBuffer deve ter somente o tamanho necessário, somente um buffer para receber o que o usuário digita no scanf pode ter um tamanho fixo.
+4) Não pode usar struct em todo o programa.
